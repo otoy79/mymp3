@@ -1,0 +1,1538 @@
+﻿#myInput, #myInput2, #myInput3, #myInput4, #myInput5, #myInput6, #myInput7, #myInput8, #myInput9, #myInput10, #myInput11, #myInput12, #myInput13, #myInput14, #myInput15, #myInput16, #myInput17, #myInput18, #myInput19, #myInput20, #myInput21, #myInput22, #myInput23, #myInput24, #myInput25, #myInput26, #myInput27, #myInput28, #myInput29, #myInput30, #myInput31, #myInput32, #myInput33, #myInput34, #myInput35, #myInput36, #myInput37, #myInput38, #myInput39, #myInput40, #myInput41, #myInput42, #myInput43, #myInput44, #myInput45, #myInput46, #myInput47, #myInput48, #myInput49, #myInput50, #myInput51, #myInput52, #myInput53, #myInput54, #myInput55, #myInput56, #myInput57, #myInput58, #myInput59, #myInput60, #myInput61, #myInput62, #myInput63, #myInput64, #myInput65, #myInput66, #myInput67, #myInput68, #myInput69, #myInput70, #myInput71, #myInput72, #myInput73, #myInput74, #myInput75, #myInput76, #myInput77, #myInput78, #myInput79, #myInput80, #myInput81, #myInput82, #myInput83, #myInput84, #myInput85, #myInput86, #myInput87, #myInput88, #myInput89, #myInput90, #myInput91, #myInput92, #myInput93, #myInput94, #myInput95, #myInput96, #myInput97, #myInput98, #myInput99, #myInput100, #myInput101, #myInput102, #myInput103, #myInput104, #myInput105, #myInput106, #myInput107, #myInput108, #myInput109, #myInput110, #myInput111, #myInput112, #myInput113, #myInput1, #myInput115 {
+  background-color: #fff;
+  background-image: url('../png/iconsearch.png');
+  background-position: 9px 2px;
+  background-repeat: no-repeat;
+  width: 40%;
+  font-size: 10px;
+  padding: 2px 2px 2px 30px;
+  border: 1px solid #ddd;
+  margin-left: 2px;
+  border-radius: 8px;
+  color: #004d00;
+ top: 2px;
+}
+.ablue {
+color: blue;
+}
+
+.aorg {
+color: #FF8C00;
+}
+.agr{
+color: green;
+}
+.agr2{
+color: #32CD32;
+}
+.ared{
+color: red;
+}
+.aping{
+color: deeppink;
+}
+.aungu{
+color: #9400D3;
+}
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+  #grad0 {
+  height: 8px;
+   position: fixed;
+  background:linear-gradient(to bottom, #a6f259 0%, #4CAF50 100%);
+}
+.grad10 {
+  margin-top:85px;
+  height: 150px;
+   position: absolute;
+  background:linear-gradient(to bottom, #a6f259 0%, #4CAF50 100%);
+}
+
+.grad1 {
+  height: 4px;
+  width: 60px;
+  font-size: 1px;
+  background-color: #fff;
+}
+#mDIV {
+  margin-left: 3px;
+  width: 33px;
+  text-align: center;
+   z-index: 4;
+}
+
+.ifram { 
+visibility: hidden;
+ position: absolute;
+ left: 0;
+ top: 0;
+ height:0;
+ width:0;
+ border: none; 
+}
+
+div.lt {
+  text-align: left;
+  text-align:justify;
+  color:#000033;
+  font-size: smaller;
+  font-weight: bold;
+  padding: 6px;
+}
+
+div.tj {
+  text-align: left;
+  text-align:justify;
+  color:#4D7523;
+  font-size: small;
+  padding: 6px;
+}
+div.tajwid {
+  font-family: Islamic;
+   src: url(Islamic.ttf);
+  font-size: 31px;
+  line-height: 1.6;
+ text-align: right;
+  padding: 6px;
+ border-radius: px 0px;
+}
+div.c2 {
+  margin-top:85px;
+  font-family: qqq;
+  src: url(qqq.ttf);
+  font-size: 16px;
+ text-align: right;
+  border-top: 1px solid green;
+  padding: 7px;
+ border-radius: px 0px;
+}
+div.pengh {
+  margin-top:8px;
+  background-color:#fffbf4;
+  text-align: right;
+  font-family: Qalam-majeed;
+  src: url(Qalam-majeed.ttf);
+  font-size: 27px;
+  line-height: 1.7;
+  border: 2px solid #ffecc8;
+  padding: 7px;
+ border-radius: 5px 5px;
+}
+
+div.aa {
+  padding: 14px;
+  font-size:16px;
+  text-align:justify;
+  color: #000000;
+  height: 91%;
+  overflow: auto;
+}
+
+details {
+  font-family: font Islamic;
+   src: url(font Islamic.ttf);
+  text-align: center;
+  color:#000033;
+  font-size:16px;
+ background-color: #fff;
+  border: 1px solid #999999;
+  width: 90%;
+  padding: 3px;
+}
+.pembukaan {
+  text-align:justify;
+  color:#000033;
+  font-size:12px;
+  padding: 0 12px;
+  height: 290px;
+  overflow: auto; 
+  max-height: 0;
+  transition: max-height 0.6s ease-out;
+  background-color: #f1f1f1;
+}
+
+.cf {
+  padding: 4px 4px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  background:linear-gradient(to bottom, #29ad3d 0%, #ffffcc 100%);
+  border: none;
+  border-radius: 5px 5px;
+  box-shadow: 0 1px #4CAF50;
+}
+
+.cf a:hover {background-color: #f1f1f1;}
+
+.cf a:hover {
+  display: block;
+}
+@font-face {
+    font-family: Islamic;
+    src: url(Islamic.ttf);
+}
+@font-face {
+    font-family: Qalam-majeed;
+    src: url( Qalam-majeed.ttf);
+}
+@font-face {
+    font-family: Nur-Hudda;
+    src: url(Nur-Hudda.ttf);
+}
+@font-face {
+    font-size:28px;
+    font-family: LPMQ;
+    src: url(LPMQ.ttf);
+}
+@font-face {
+    font-family: Qalam;
+    src: url(Qalam.ttf);
+}
+@font-face {
+    font-size:8px;
+    font-family: Islami;
+    src: url(Islami.ttf);
+}
+@font-face {
+    font-size:8px;
+    font-family: lpmq;
+    src: url(lpmq.otf);
+}
+@font-face {
+    line-height: 2.8;
+    font-family: صللم;
+    src: url(صللم.ttf);
+}
+@font-face {
+    font-size:8px;
+    font-family: قرعن;
+    src: url(قرعن.ttf);
+}
+
+@font-face {
+    font-family: Amiri-Reg;
+    src: url(Amiri-Reg.ttf);
+}
+
+@font-face {
+    font-family: Amiri-Slanted;
+    src: url(Amiri-Slanted.ttf);
+}
+
+@font-face {
+    font-family: ariali;
+    src: url(ariali.ttf);
+}
+ 
+@font-face {
+    font-family: Lafadz;
+    src: url(Lafadz.otf);
+}
+ 
+@font-face {
+    font-family: Amiri-Bold;
+    src: url(Amiri-Bold.ttf);
+}
+ 
+@font-face {
+    font-family: trado;
+    src: url(trado.ttf);
+}
+@font-face {
+    font-family: indopak;
+    src: url(indopak.ttf);
+}
+@font-face {
+    font-family: هَفِى;
+    src: url(هَفِى.ttf);
+}
+@font-face {
+    font-family: Islamic;
+    src: url(Islamic.ttf);
+}
+@font-face {
+    font-family: ScheherazadeRegOT;
+    src: url(ScheherazadeRegOT.ttf);
+}
+@font-face {
+    font-family: font_islamic;
+    src: url(font_islamic.ttf);
+}
+@font-face {
+    font-family: alquran;
+    src: url(alquran.ttf);
+}
+.popup {
+  z-index: 9999;
+  position: relative;
+  border: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  background-color: #fff;
+  color: green;
+  text-align: left;
+  border-radius: 4px;
+  padding: 10px 10px;
+  position: fixed;
+  z-index: 10;
+  bottom: -285px;
+  left: 0%;
+  margin-left: -60px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+  z-index: 1;
+}
+.popup .popuptextcariayat {
+  position: fixed; top: 45%; left: 50%; transform: translate(-50%, -50%);
+  visibility: hidden;
+  width: 90%;
+  height: 80%;
+  overflow: auto;
+  text-align: center;
+  font-size: 12px;
+  background-color: #fff;
+  color: black;
+  box-shadow: 0px 8px 1px 0px rgba(0,0,0,0.3);
+  border: 4px solid #ccc;
+  padding: 20px;
+  z-index: 999999;
+}
+.popup .popupbg {
+  position: fixed; top: 12%; left: 50%; transform: translate(-50%, -50%);
+ margin-left: 0%;
+  float: right;
+  visibility: hidden;
+  font-size: 10px;
+  background-color: #fff;
+  color: black;
+  border: 1px solid yellow;
+  border-radius: 4px;
+  padding: 2px;
+  z-index: 5555;
+}
+.popup .popuptext2 {
+  position: relative; 
+  float: right;
+  visibility: hidden;
+  font-size: 12px;
+  background-color: #fff;
+  color: black;
+  border: 1px solid yellow;
+  border-radius: 4px;
+  padding: 4px;
+  margin-top: 5%;
+  z-index: 5;
+}
+.popup .popuptext2 a:hover {
+  color: red;
+  background-color: #ccc;
+}
+
+.popup .popuptextjus {
+  position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+ margin-left: -8%;
+  visibility: hidden;
+  width: 40%;
+  height: 70%;
+  overflow: auto;
+  font-size: 16px;
+  background-color: #fff;
+  color: black;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+  border: 4px solid #ccc;
+  border-radius: 4px;
+  padding: 3px 10px;
+  z-index: 5;
+}
+.popup .popuptextjus a {
+  float: left;
+  padding: 3px 10px;
+  font-size: 32px;
+  color: green;
+  text-decoration: none;
+  width: 80%;
+  border: 1px solid green;
+  display: block;
+}
+.popup .popuptextjus a:hover {
+  color: red;
+  background-color: #ccc;
+}
+
+.popup .popuptextcariayat a {
+  float: centered;
+  padding: 6px 10px;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  width: 90%;
+  display: block;
+}
+.popup .popuptextshare {
+  visibility: hidden;
+  background-color: #fff;
+  color: #000;
+  text-align: justify;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 10px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 180%;
+  margin-left: -px;
+}
+.popup .popuptextshare a {
+  padding: 6px;
+  display: block;
+  text-decoration: none;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: fixed;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 0.4s;
+  animation: fadeIn 0.4s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+salam::before { 
+  font-family:  Lafadz;
+   src: url(Lafadz.otf);
+  content: "n";
+  font-size: 45px;
+  margin-top: 25px;
+  text-align: center;
+}
+swt::before { 
+  font-family:  Lafadz;
+   src: url(Lafadz.otf);
+  content: "b";
+  font-size: 35px;
+  margin-top: 25px;
+}
+swt2::before { 
+  font-family:  Lafadz;
+   src: url(Lafadz.otf);
+  content: "b";
+  font-size: 20px;
+  margin-top: 25px;
+}
+saw::before { 
+  font-family:  Lafadz;
+   src: url(Lafadz.otf);
+  content: "c";
+  font-size: 35px;
+  margin-top: 25px;
+}
+r::before { 
+  font-family:  Lafadz;
+   src: url(Lafadz.otf);
+  content: "a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9 0 ";
+  color: black;
+  font-size: 85px;
+}
+r1::before { 
+  font-family:  lpmq;
+   src: url(lpmq.otf);
+  content: " ۞ ";
+  text-align: center ;
+  float: right ;
+  color: green;
+  padding-left: 10px;
+ margin-top: -3px;
+}
+s1::before {
+  content: "صَّلَا";
+   color: red;
+}
+
+nw1::before { 
+  font-family: ScheherazadeRegOT;
+   src: url(ScheherazadeRegOT.ttf);
+  content: " ١۝ ";
+  text-align: right ;
+  color: #e68a00;
+}
+
+n100,n101,n102,n103,n104,n105,n106,n107,n108,n109,n110,n111,n112,n113,n114,n115,n116,n117,n118,n119,n120,n121,n122,n123,n124,n125,n126,n127,n128,n129,n130,n131,n132,n133,n134,n135,n136,n137,n138,n139,n140,n141,n142,n143,n144,n145,n146,n147,n148,n149,n150,n151,n152,n153,n154,n155,n156,n157,n158,n159,n160,n161,n162,n163,n164,n165,n166,n167,n168,n169,n170,n171,n172,n173,n174,n175,n176,n177,n178,n179,n180,n181,n182,n183,n184,n185,n186,n187,n188,n189,n190,n191,n192,n193,n194,n195,n196,n197,n198,n199,n200,n201,n202,n203,n204,n205,n206,n207,n208,n209,n210,n211,n212,n213,n214,n215,n216,n217,n218,n219,n220,n221,n222,n223,n224,n225,n226,n227,n228,n229,n230,n231,n232,n233,n234,n235,n236,n237,n238,n239,n240,n241,n242,n243,n244,n245,n246,n247,n248,n249,n250,n251,n252,n253,n254,n255,n256,n257,n258,n259,n260,n261,n262,n263,n264,n265,n266,n267,n268,n269,n270,n271,n272,n273,n274,n275,n276,n277,n278,n279,n280,n281,n282,n283,n284,n285,n286 {
+ font-family: ScheherazadeRegOT;
+  background-image:url("../png/num.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 83%;
+  text-align: center ;
+  padding-right:6px;
+  padding-left:0.5px;
+  padding-bottom:2px;
+  display: inline;
+  letter-spacing: -4px;
+}
+n1,n2,n3,n4,n5,n6,n7,n8,n9 {
+ font-family: ScheherazadeRegOT;
+  background-image:url("../png/num.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 83%;
+  text-align: center ;
+  padding-right:6px;
+  padding-left:6px;
+  padding-bottom:2px;
+  display: inline;
+}
+n10,n11,n12,n13,n14,n15,n16,n17,n18,n19,n20,n21,n22,n23,n24,n25,n26,n27,n28,n29,n30,n31,n32,n33,n34,n35,n36,n37,n38,n39,n40,n41,n42,n43,n44,n45,n46,n47,n48,n49,n50,n51,n52,n53,n54,n55,n56,n57,n58,n59,n60,n61,n62,n63,n64,n65,n66,n67,n68,n69,n70,n71,n72,n73,n74,n75,n76,n77,n78,n79,n80,n81,n82,n83,n84,n85,n86,n87,n88,n89,n90,n91,n92,n93,n94,n95,n96,n97,n98,n99 {
+ font-family: ScheherazadeRegOT;
+  background-image:url("../png/num.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 83%;
+  text-align: center ;
+  padding-right:6px;
+  padding-left:2px;
+  padding-bottom:2px;
+  display: inline;
+  letter-spacing: -3px;
+}
+.bgsrh {
+ width: auto 100%;
+ background-image:url("../png/img1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top:5px;
+  text-align: center ;
+  padding: 10px 10px 45px ;
+  font-size: 15px;
+  color: #fff;
+}
+.bgarab {
+  background-color: #fff;
+  padding: 3px;
+  float:right;
+  border-radius: 8px;
+}
+ sr1::before { 
+  content: " 1. Al-Fatihah  ";
+  font-weight: bold;
+}
+n1::before { 
+  content: "١";
+}
+n2::before { 
+  content: " ٢ ";
+}
+n3::before { 
+  content: " ٣ ";
+}
+n4::before { 
+  content: " ٤ ";
+}
+n5::before { 
+  content: " ٥ ";
+}
+n6::before {
+  content: " ٦ ";
+}
+n7::before { 
+  content: " ٧ ";
+}
+n8::before { 
+  content: " ٨ ";
+}
+n9::before { 
+  content: " ٩ ";
+}
+n10::before { 
+  content: " ١٠ ";
+}
+n11::before { 
+  content: " ١١ ";
+}
+n12::before {
+  content: " ١٢ ";
+}
+n13::before { 
+  content: " ١٣ ";
+}
+n14::before { 
+  content: " ١٤ ";
+}
+n15::before { 
+  content: " ١٥ ";
+}
+n16::before { 
+  content: " ١٦ ";
+}
+n17::before { 
+  content: " ١٧ ";
+}
+n18::before {
+  content: " ١٨ ";
+}
+n19::before {
+  content: " ١٩ ";
+}
+n20::before {
+  content: " ٢٠ ";
+}
+n21::before { 
+  content: " ٢١ ";
+}
+n22::before { 
+  content: " ٢٢ ";
+}
+n23::before { 
+  content: " ٢٣ ";
+}
+n24::before { 
+  content: " ٢٤ ";
+}
+n25::before { 
+  content: " ٢٥ ";
+}
+n26::before { 
+  content: " ٢٦ ";
+}
+n27::before { 
+  content: " ٢٧ ";
+}
+n28::before { 
+  content: " ٢٨ ";
+}
+n29::before { 
+  content: " ٢٩ ";
+}
+n30::before { 
+  content: " ٣٠ ";
+}
+n31::before { 
+  content: " ٣١ ";
+}
+n32::before { 
+  content: " ٣٢ ";
+}
+n33::before { 
+  content: " ٣٣ ";
+}
+n34::before { 
+  content: " ٣٤ ";
+}
+n35::before { 
+  content: " ٣٥ ";
+}
+n36::before { 
+  content: " ٣٦ ";
+}
+n37::before { 
+  content: " ٣٧ ";
+}
+n38::before { 
+  content: " ٣٨ ";
+}
+n39::before { 
+  content: " ٣٩ ";
+}
+n40::before { 
+  content: " ٤٠ ";
+}
+n41::before { 
+  content: " ٤١ ";
+}
+n42::before { 
+  content: " ٤٢ ";
+}
+n43::before { 
+  content: " ٤٣ ";
+}
+n44::before { 
+  content: " ٤٤ ";
+}
+n45::before {
+  content: " ٤٥ ";
+}
+n46::before { 
+  content: " ٤٦ ";
+}
+n47::before { 
+  content: " ٤٧ ";
+}
+n48::before { 
+  content: " ٤٨ ";
+}
+n49::before { 
+  content: " ٤٩ ";
+}
+n50::before { 
+  content: " ٥٠ ";
+}
+n51::before { 
+  content: " ٥١ ";
+}
+n52::before { 
+  content: " ٥٢ ";
+}
+n53::before { 
+  content: " ٥٣ ";
+}
+n54::before { 
+  content: " ٥٤ ";
+}
+n55::before { 
+  content: " ٥٥ ";
+}
+n56::before { 
+  content: " ٥٦ ";
+}
+n57::before { 
+  content: " ٥٧ ";
+}
+n58::before { 
+  content: " ٥٨ ";
+}
+n59::before { 
+  content: " ٥٩ ";
+}
+n60::before { 
+  content: " ٦٠ ";
+}
+n61::before { 
+  content: " ٦١ ";
+}
+n62::before { 
+  content: " ٦٢ ";
+}
+n63::before { 
+  content: " ٦٣ ";
+}
+n64::before { 
+  content: " ٦٤ ";
+}
+n65::before { 
+  content: " ٦٥ ";
+}
+n66::before { 
+  content: " ٦٦ ";
+}
+n67::before { 
+  content: " ٦٧ ";
+}
+n68::before { 
+  content: " ٦٨ ";
+}
+n69::before { 
+  content: " ٦٩ ";
+}
+n70::before { 
+  content: " ٧٠ ";
+}
+n71::before { 
+  content: " ٧١ ";
+}
+n72::before { 
+  content: " ٧٢ ";
+}
+n73::before { 
+  content: " ٧٣ ";
+}
+n74::before { 
+  content: " ٧٤ ";
+}
+n75::before { 
+  content: " ٧٥ ";
+}
+n76::before { 
+  content: " ٧٦ ";
+}
+n77::before { 
+  content: " ٧٧ ";
+}
+n78::before { 
+  content: " ٧٨ ";
+}
+n79::before { 
+  content: " ٧٩ ";
+}
+n80::before { 
+  content: " ٨٠ "
+  
+}
+n81::before { 
+  content: " ٨١ ";
+  
+}
+n82::before { 
+  content: " ٨٢ ";
+}
+n83::before { 
+  content: " ٨٣ ";
+}
+n84::before { 
+  content: " ٨٤ ";
+}
+n85::before { 
+  content: " ٨٥ ";
+}
+n86::before { 
+  content: " ٨٦ ";
+}
+n87::before { 
+  content: " ٨٧ ";
+}
+n88::before { 
+  content: " ٨٨ ";
+}
+n89::before { 
+  content: " ٨٩ ";
+}
+n90::before { 
+  content: " ٩٠ ";
+}
+n91::before { 
+  content: " ٩١ ";
+}
+n92::before { 
+  content: " ٩٢ ";
+}
+n93::before { 
+  content: " ٩٣ ";
+}
+n94::before { 
+  content: " ٩٤ ";
+}
+n95::before { 
+  content: " ٩٥ ";
+}
+n96::before { 
+  content: " ٩٦ ";
+}
+n97::before { 
+  content: " ٩٧ ";
+}
+n98::before { 
+  content: " ٩٨ ";
+}
+n99::before { 
+  content: " ٩٩ ";
+}
+n100::before { 
+  content: " ١٠٠ ";
+}
+n101::before { 
+  content: " ١٠١ ";
+}
+n102::before { 
+  content: " ١٠٢ ";
+}
+n103::before { 
+  content: " ١٠٣ ";
+}
+n104::before { 
+  content: " ١٠٤ ";
+}
+n105::before { 
+  content: " ١٠٥ ";
+}
+n106::before { 
+  content: " ١٠٦ ";
+}
+n107::before { 
+  content: " ١٠٧ ";
+}
+n108::before { 
+  content: " ١٠٨ ";
+  
+}
+n109::before { 
+  content: " ١٠٩ ";
+  
+}
+n110::before { 
+  content: " ١١٠ ";
+  
+}
+n111::before { 
+  content: " ١١١ ";
+  
+}
+n112::before { 
+  content: " ١١٢ ";
+  
+}
+n113::before { 
+  content: " ١١٣ ";
+   
+}
+n114::before { 
+  content: " ١١٤ ";
+  
+}
+n115::before { 
+  content: " ١١٥ ";
+  
+}
+n116::before { 
+  content: " ١١٦ ";
+  
+}
+n117::before { 
+  content: " ١١٧ ";
+  
+}
+n118::before { 
+  content: " ١١٨ ";
+  
+}
+n119::before { 
+  content: " ١١٩ ";
+}
+n120::before { 
+  content: " ١٢٠ ";
+}
+n121::before { 
+  content: " ١٢١ ";
+}
+n122::before { 
+  content: " ١٢٢ ";
+}
+n123::before { 
+  content: " ١٢٣ ";
+}
+n124::before { 
+  content: " ١٢٤ ";
+}
+n125::before { 
+  content: " ١٢٥ ";
+}
+n126::before { 
+  content: " ١٢٦ ";
+}
+n127::before { 
+  content: " ١٢٧ ";
+}
+n128::before { 
+  content: " ١٢٨ ";
+}
+n129::before { 
+  content: " ١٢٩ ";
+}
+n130::before { 
+  content: " ١٣٠ ";
+}
+n131::before { 
+  content: " ١٣١ ";
+}
+n132::before { 
+  content: " ١٣٢ ";
+}
+n133::before { 
+  content: " ١٣٣ ";
+}
+n134::before { 
+  content: " ١٣٤ ";
+}
+n135::before { 
+  content: " ١٣٥ ";
+}
+n136::before { 
+  content: " ١٣٦ "
+}
+n137::before { 
+  content: " ١٣٧ ";
+}
+n138::before { 
+  content: " ١٣٨ ";
+}
+n139::before { 
+  content: " ١٣٩ ";
+}
+n140::before { 
+  content: " ١٤٠ ";
+}
+n141::before { 
+  content: " ١٤١ ";
+}
+n142::before { 
+  content: " ١٤٢ ";
+}
+n143::before { 
+  content: " ١٤٣ ";
+}
+n144::before { 
+  content: " ١٤٤ ";
+}
+n145::before { 
+  content: " ١٤٥ ";
+}
+n146::before { 
+  content: " ١٤٦ ";
+}
+n147::before { 
+  content: " ١٤٧ ";
+}
+n148::before { 
+  content: " ١٤٨ ";
+}
+n149::before { 
+  content: " ١٤٩ ";
+}
+n150::before { 
+  content: " ١٥٠ ";
+}
+n151::before { 
+  content: " ١٥١ ";
+}
+n152::before { 
+  content: " ١٥٢ ";
+}
+n153::before { 
+  content: " ١٥٣ ";
+}
+n154::before { 
+  content: " ١٥٤ ";
+}
+n155::before { 
+  content: " ١٥٥ ";
+}
+n156::before { 
+  content: " ١٥٦ ";
+}
+n157::before { 
+  content: " ١٥٧ ";
+}
+n158::before { 
+  content: " ١٥٨ ";
+}
+n159::before { 
+  content: " ١٥٩ ";
+}
+n160::before { 
+  content: " ١٦٠ ";
+}
+n161::before { 
+  content: " ١٦١ ";
+}
+n162::before { 
+  content: " ١٦٢ ";
+}
+n163::before { 
+  content: " ١٦٣ ";
+}
+n164::before { 
+  content: " ١٦٥ ";
+}
+n165::before { 
+  content: " ١٦٥ ";
+}
+n166::before { 
+  content: " ١٦٦ ";
+}
+n167::before { 
+  content: " ١٦٧ ";
+}
+n168::before { 
+  content: " ١٦٨ ";
+}
+n169::before { 
+  content: " ١٦٩ ";
+}
+n170::before { 
+  content: " ١٧٠ ";
+}
+n171::before { 
+  content: " ١٧١ ";
+}
+n172::before { 
+  content: " ١٧٢ ";
+}
+n173::before { 
+  content: " ١٧٣ ";
+}
+n174::before { 
+  content: " ١٧٤ ";
+}
+n175::before { 
+  content: " ١٧٥ ";
+}
+n176::before { 
+  content: " ١٧٦ ";
+}
+n177::before { 
+  content: " ١٧٧ ";
+}
+n178::before { 
+  content: " ١٧٨ ";
+}
+n179::before { 
+  content: " ١٧٩ ";
+}
+n180::before { 
+  content: " ١٨٠ ";
+}
+n181::before { 
+  content: " ١٨١ ";
+}
+n182::before { 
+  content: " ١٨٢ ";
+}
+n183::before { 
+  content: " ١٨٣ ";
+}
+n184::before { 
+  content: " ١٨٤ ";
+}
+n185::before { 
+  content: " ١٨٥ ";
+}
+n186::before { 
+  content: " ١٨٦ ";
+  text-align: right ;
+  color: #e68a00;
+}
+n187::before { 
+  content: " ١٨٧ ";
+}
+n188::before { 
+  content: " ١٨٨ ";
+}
+n189::before { 
+  content: " ١٨٩ ";
+}
+n190::before { 
+  content: " ١٩٠ ";
+}
+n191::before { 
+  content: " ١٩١ ";
+}
+n192::before { 
+  content: " ١٩٢ ";
+}
+n193::before { 
+  content: " ١٩٣ ";
+}
+n194::before { 
+  content: " ١٩٤ ";
+}
+n195::before { 
+  content: " ١٩٥ ";
+}
+n196::before { 
+  content: " ١٩٦ ";
+}
+n197::before { 
+  content: " ١٩٧ ";
+}
+n198::before { 
+  content: " ١٩٨ ";
+}
+n199::before { 
+  content: " ١٩٩ ";
+}
+n200::before { 
+  content: " ٢٠٠ ";
+}
+n201::before { 
+  content: " ٢٠١ ";
+}
+n202::before { 
+  content: " ٢٠٢ ";
+}
+n203::before { 
+  content: " ٢٠٣ ";
+}
+n204::before { 
+  content: " ٢٠٤ ";
+}
+n205::before { 
+  content: " ٢٠٥ ";
+  text-align: right;
+  color: #e68a00;
+}
+n206::before { 
+  content: " ٢٠٦ ";
+}
+n207::before { 
+  content: " ٢٠٧ ";
+}
+n208::before { 
+  content: " ٢٠٨ ";
+}
+n209::before { 
+  content: " ٢٠٩ ";
+}
+n210::before { 
+  content: " ٢١٠ ";
+}
+n211::before { 
+  content: " ٢١١ ";
+}
+n212::before { 
+  content: " ٢١٢ ";
+}
+n213::before { 
+  content: " ٢١٣ ";
+}
+n214::before { 
+  content: " ٢١٤ ";
+}
+n215::before { 
+  content: " ٢١٥ ";
+}
+n216::before { 
+  content: " ٢١٦ ";
+}
+n217::before { 
+  content: " ٢١٧ ";
+}
+n218::before { 
+  content: " ٢١٨ ";
+}
+n219::before { ;
+  content: " ٢١٩ ";
+}
+n220::before { 
+  content: " ٢٢٠ ";
+}
+n221::before { 
+  content: " ٢٢١ ";
+}
+n222::before { 
+  content: " ٢٢٢ ";
+}
+n223::before { 
+  content: " ٢٢٣ ";
+}
+n224::before { 
+  content: " ٢٢٤ ";
+}
+n225::before { 
+  content: " ٢٢٥ ";
+}
+n226::before { 
+  content: " ٢٢٦ ";
+}
+n227::before { 
+  content: " ٢٢٧ ";
+}
+n228::before { 
+  content: " ٢٢٨ ";
+}
+n229::before { 
+  content: " ٢٢٩ ";
+}
+n230::before { 
+  content: " ٢٣٠ ";
+}
+n231::before { 
+  content: " ٢٣١ ";
+}
+n232::before { 
+  content: " ٢٣٢ ";
+}
+n233::before { 
+  content: " ٢٣٣ ";
+}
+n234::before { 
+  content: " ٢٣٤ ";
+}
+n235::before { 
+  content: " ٢٣٥ ";
+}
+n236::before { 
+  content: " ٢٣٦ ";
+}
+n237::before { 
+  content: " ٢٣٧ ";
+}
+n238::before { 
+  content: " ٢٣٨ ";
+}
+n239::before { 
+  content: " ٢٣٩ ";
+}
+n240::before { 
+  content: " ٢٤٠ ";
+}
+n241::before { 
+  content: " ٢٤١ ";
+}
+n242::before { 
+  content: " ٢٤٢ ";
+}
+n243::before { 
+  content: " ٢٤٣ ";
+}
+n244::before { 
+  content: " ٢٤٤ ";
+}
+n245::before { 
+  content: " ٢٤٥ ";
+}
+n246::before { 
+  content: " ٢٤٦ ";
+}
+n247::before { 
+  content: " ٢٤٧ ";
+}
+n248::before { 
+  content: " ٢٤٨ ";
+}
+n249::before { 
+  content: " ٢٤٩ ";
+}
+n250::before { 
+  content: " ٢٥٠ ";
+}
+n251::before { 
+  content: " ٢٥١ ";
+}
+n252::before { 
+  content: " ٢٥٢ ";
+}
+n253::before { 
+  content: " ٢٥٣ ";
+}
+n254::before { 
+  content: " ٢٥٤ ";
+}
+n255::before { 
+  content: " ٢٥٥ ";
+}
+n256::before { 
+  content: " ٢٥٦ ";
+}
+n257::before { 
+  content: " ٢٥٧ ";
+}
+n258::before { 
+  content: " ٢٥٨ ";
+}
+n259::before { 
+  content: " ٢٥٩ ";
+}
+n260::before { 
+  content: " ٢٦٠ ";
+}
+n261::before { 
+  content: " ٢٦١ ";
+}
+n262::before { 
+  content: " ٢٦٢ ";
+}
+n263::before { 
+  content: " ٢٦٣ ";
+}
+n264::before { 
+  content: " ٢٦٤ ";
+}
+n265::before { 
+  content: " ٢٦٥ ";
+}
+n266::before { 
+  content: " ٢٦٦ ";
+}
+n267::before { 
+  content: " ٢٦٧ ";
+}
+n268::before { 
+  content: " ٢٦٨ ";
+}
+n269::before { 
+  content: " ٢٦٩ ";
+}
+n270::before { 
+  content: " ٢٧٠ ";
+}
+n271::before { 
+  content: " ٢٧١ ";
+}
+n272::before { 
+  content: " ٢٧٢ ";
+}
+n273::before { 
+  content: " ٢٧٣ ";
+}
+n274::before { 
+  content: " ٢٧٤ ";
+}
+n275::before { 
+  content: " ٢٧٥ ";
+}
+n276::before { 
+  content: " ٢٧٦ ";
+}
+n277::before { 
+  content: " ٢٧٧ ";
+}
+n278::before { 
+  content: " ٢٧٨ ";
+}
+n279::before { 
+  content: " ٢٧٩ ";
+}
+n280::before { 
+  content: " ٢٨٠ ";
+}
+n281::before { 
+  content: " ٢٨١ ";
+}
+n282::before { 
+  content: " ٢٨٢ ";
+}
+n283::before { 
+  content: " ٢٨٣ ";
+}
+n284::before { 
+  content: "٢٨٤";
+}
+n285::before { 
+  content: "٢٨٥";
+}
+n286::before { 
+  content: "٢٨٦";
+}
+.glow-on-hover {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #999
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: green;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.glow-on-hover1 {
+    width: 100%;
+  height: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #8B4513;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover1:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(10px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .1s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover1:active {
+    color: #999
+}
+
+.glow-on-hover1:active:after {
+    background: transparent;
+}
+
+.glow-on-hover1:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover1:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 20px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

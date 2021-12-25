@@ -1,0 +1,2228 @@
+.homes {
+ position: fixed; top: 50%; left:50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border-top: none;
+  position: fixed; 
+  top: 50%; left:50%;
+  transform: translate(-50%, -50%);
+  margin: auto; 
+  background-color: white;
+  background-image:url("../png/border3.g");
+   height: 100%;
+  background-color: #f5f0eb;
+     background-image:url("../png/9.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: %;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+ }
+.accordion {
+  color: #444;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.activi, .accordion:hover {
+  
+}
+
+.accordion:after {
+  margin-bottom:8px;
+  content: '';
+  color: #777;
+  background-image:url("../png/drop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 10px;
+  width: 20px;
+  float: left;
+  margin-left: 0px;
+}
+
+.activi:after {
+  margin-bottom:8px;
+  content: "";
+  background-image:url("../png/up.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 10px;
+  width: 20px;
+}
+
+.panel {
+  position: fixed; 
+            top: 0; 
+  width: 100%;
+  color: #000;
+  margin-left: 0px;
+  padding: 0 20px;
+  text-align: left;
+  background-color: #f1f1f1f1;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.content-panel {
+  height: 200px;
+  overflow: auto;
+  font-size: 44px;
+ }
+.panel2 {
+  margin-top: 0px!important;
+ position: fixed; top: 10%; left:50%;
+  transform: translate(-50%, -50%);
+ margin-right: 0%;
+  width: 64%;
+ position: fixed;
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;.
+  border-radius: 8px;
+ box-shadow: 0px 8px 14px 0px rgba(0,0,0,0.3);
+  transition: max-height 0.1s ease-out;
+  z-index: 999;
+}
+.bk-modal {
+  margin-top: 5px;
+  display:block;
+	position:absolute;
+	bottom:0;
+	right:2px;
+  width: 50px;
+  height: 50px;
+    background-image:url("../png/0.png");
+    	background-repeat: no-repeat;
+	background-position:bottom right;
+}
+
+.fs {
+  height: 22px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: #fff;
+  background-image:url("../png/tjd.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 0px;
+  float: left;
+  border: 2px solid #fff;
+  margin-right:-px;
+  cursor: pointer;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.fs:hover {
+  background: red;
+  transform: rotate(360deg);
+}
+.font {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: green;
+  background-image:url("../png/fs.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 2px;
+  float: left;
+  border: 1px solid #fff;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.font:hover {
+  background: red;
+  background-image:url("../png/fs.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transform: rotate(360deg);
+}
+.slid {
+  height: 35px;
+  width: 35px;
+  margin-top:px;
+  margin-right:15px;
+  -webkit-animation: fadeEffect 8.5s;
+  animation: fadeEffect 8.5s;
+}
+
+/* Fade in slid */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+  position: absolute; 
+            top: 0px; 
+            bottom: 0; 
+            left: 0; 
+            right: 0; 
+            margin: auto;
+  padding: 4px;
+  background-color: #f5f0eb;
+  background-image:url("../png/9.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: auto;
+  padding: 0px;
+  border: px solid #888;
+  width: 90%;
+  height: 100%;
+  margin-top: 0px;
+  overflow: hidden;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -800px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -800px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+div.a {
+  background: #fff;
+  position: relative;
+  border: 10px solid transparent;
+  -webkit-border-image: url(../png/border3.png) 30 round; /* Safari 3.1-5 */
+  -o-border-image: url(png/border3.png) 30 round; /* Opera 11-12.1 */
+  border-image: url(../png/border3.png) 30 round;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+ margin-botton: %;
+  margin-top: 0%;
+  padding: 4px;
+  text-align: right;
+  color: #000000;
+  width: 80%;
+  height: 83%;
+  overflow: auto;
+}
+.header2 {
+  top: 5px;
+ position: absolute;
+  width: 100%;
+ margin-left: -2px;
+  font-size: 6px;
+  color: white;
+  text-align:center;
+  padding: 2px;
+ z-index: 9999;
+}
+.navbar2 {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  margin-right: 2%;
+  border: 2px solid brown;
+  border-radius: 30px;
+  bottom: 0;
+  background:rgba(0,0,0, 0.1);
+ padding: 0px;
+}
+.navbar2 a {
+  padding: 10px 10px;
+
+}
+div.overflo {
+  background-color: #f5f0eb;
+  position: fixed; 
+  padding: 0px 0px 8px;
+    top: 50%; left:50%;
+  transform: translate(-50%, -50%);
+  border-top: none;
+border: 12px solid transparent;
+  padding-bottom: 50px;
+  -webkit-border-image: url(../png/border3.png) 18 round; /* Safari 3.1-5 */
+  -o-border-image: url(../png/border3.png) 18 round; /* Opera 11-12.1 */
+  border-image: url(../png/border3.png) 30 round;
+  margin-top: -28px;
+ margin-left: 0;
+  height: 75%;
+  width: 82%;
+  overflow: auto;
+  text-align: center;
+  -webkit-animation: fadeEffect 1.5s;
+  animation: fadeEffect 1.5s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+
+    }
+
+.header {
+  position: fixed; 
+ overflow: hidden;
+  bottom: 30px;
+  width: 85%;
+ position: fixed; left: 50%; transform: translate(-50%, -50%); margin: 0 auto;
+background: #8B4513;
+  font-size: 6px;
+  text-align: left;
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  z-index: 99;
+}
+.header {
+  font-size: 6px;
+  color: white;
+}
+.headerjuz {
+  position: fixed; 
+ overflow: hidden;
+  bottom: 30px;
+  width: 85%;
+ position: fixed; left: 50%; transform: translate(-50%, -50%); margin: 0 auto;
+background: #8B4513;
+  font-size: 14px;
+  text-align: left;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 20px;
+  z-index: 99;
+}
+
+.zoom ul.zoom-list {
+list-style: none;
+margin: 0px 0px 0px 0px;
+padding: 1px 6px 1px 1px;
+float: left;
+border: 1px solid #888A85;
+background: green url('../img/bg.png') repeat-x;
+border-radius: 5px;
+font-size: 4px;
+width: 220px;
+height: 22px;
+}
+
+.zoom .zoom-list li {
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+float: left;
+cursor: pointer;
+font-family: 'arial';
+font-size: 4px;
+line-height: 14px;
+background: url('../img/sprite.png')
+ no-repeat top left;
+}
+
+list-group-item:hover{
+  text-decoration:none
+}
+
+.list-group-item.disabled,.list-group-item:disabled{
+  color:#ffffdb;
+  background-color:#000;
+}
+
+.list-group-item.active{
+  background-color:#fff;
+  color: black;
+  border-right: px solid #fff;
+  border-radius: px px;
+}
+.list-group-flush .list-group-item{
+  border-left: 3px solid #fff;
+  border-radius: px px;
+  border-right:0;border-left:0;border-radius:0}
+.list-group-flush:first-child .list-group-item:first-child{border-top:0}.list-group-flush:last-child .list-group-item:last-child{border-bottom:0}
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  bottom: 0;
+  background-color: #fefefe;
+  width: 100%;
+}
+.collapsible {
+  margin-top: 10px;
+  background-color: #9e6930;
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+.act, .collapsible:hover {
+  background-color: #bd7821;
+}
+.collapsible:after {
+  content: '\25BC';
+  color: white;
+  font-weight: bold;
+  float: centered;
+  margin-left: 12px;
+}
+.act:after {
+  content: "\25B2";
+}
+div.button2 {
+  margin-top: 8px;
+  float: centered;
+  background-image:url("../png/bss.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 6px 32px;
+  font-size: 18px;
+  font-family: Qalam-majeed;
+  src: url(Qalam-majeed.ttf);
+  text-align: center;
+  color: green;
+}
+div.button2a {
+  margin-top: 8px;
+  float: centered;
+  background-image:url("../png/bss1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 6px 32px;
+  font-size: 18px;
+  font-family: Qalam-majeed;
+  src: url(Qalam-majeed.ttf);
+  text-align: center;
+  color: green;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.sidenav3 {
+height: 50px;
+  width: 0;
+  position: absolute;
+  z-index: 0;
+  top: %;
+  color: #111;
+  background-color: #9e6930;
+  overflow-x: hidden;
+  transition: 0.6s;
+  overflow: hidden;
+  left: 10px;       
+}
+
+.sidenav3 a:hover {
+  color: red;
+}
+
+.sidenav3 .closebtn3 {
+  position: relative;
+  top: 5px;
+  right: px;
+  padding-right: 8px;
+  color: red;
+  float: right;
+}
+.sidenav-header3 {
+ position: absolute;
+  padding: 4px 4px;
+  background-color: #9e6930;
+  color: #999;
+ text-align: center;
+  width: 95%;
+}
+
+@media screen and (max-height: 15px) {
+  .sidenav3 {padding-top: 1px;}
+  .sidenav a {px;}
+}
+
+#grad1 {
+ margin-left: 15px;
+  margin-top: -5px;
+  background-image:url("png/grs.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ text-align: right;
+  color: #fff;
+  height: 2px;
+  width: 90px;
+}
+.rc {
+ margin-top: 2px;
+  background-color: #f5f0eb;
+ background-image:url("../png/islamic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ 
+  border: 1px solid #777;
+  border-radius: 20px;
+ position: relative;
+ margin-left: -2%;
+ width:65px; 
+  height: 28px;
+ padding: 2px 40px;
+}
+.button {
+  color: black;
+  background-color: #fff0d9;
+  border: 6px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url(../png/borderTh.png) 30 stretch; /* Safari 3.1-5 */
+  -o-border-image: url(../png/borderTh.png) 30 stretch; /* Opera 11-12.1 */
+  border-image: url(../png/borderTh.png) 30 stretch;
+  background-image:url("../png/img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 16px;
+  text-align: left;
+  text-decoration: none;
+  outline: none;
+}
+jus1::before { 
+  content: "QS. Al-Fatihah 1: Ayat 1 [ Jus-1 ]";
+  font-size: 12px;
+  padding: 6px;
+  color: #000;  
+  cursor: pointer;
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+}
+jus2::before { 
+  content: "QS. Al-Baqarah 2: Ayat 142 [ Jus-2 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+jus3::before { 
+  content: " QS. Al-Baqarah 2: Ayat 253 [ Jus-3 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+jus4::before { 
+  content: "QS. Ali 'Imraan 3: Ayat 92 [ Jus-4 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+  cursor: pointer;
+}
+jus5::before { 
+  content: "QS. An-Nisaa' 4: Ayat 24 [ Jus-5 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+jus6::before { 
+  content: "QS. An-Nisaa' 4: Ayat 148 [ Jus-6 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus7::before { 
+  content: "QS. Al-Ma'idah 5: Ayat 83 [ Jus-7 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus8::before { 
+  content: "QS. Al-An'am 6: Ayat 111 [ Jus-8 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus9::before { 
+  content: "QS. Al-A'raf 7: Ayat 88 [ Jus-9 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus10::before { 
+  content: "QS. Al-Anfal 8: Ayat 41 [ Jus-10 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus11::before { 
+  content: "QS. At-Taubah 9: Ayat 94 [ Jus-11 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus12::before { 
+  content: "QS. Hud 11: Ayat 6 [ Jus-12 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus13::before { 
+  content: "QS. Yusuf 12: Ayat 53 [ Jus-13 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus14::before { 
+  content: "QS. Al-Hijr 15: Ayat 2 [ Jus-14 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus15::before { 
+  content: "QS. Al-Isra' 17: Ayat 1 [ Jus-15 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus16::before { 
+  content: "QS. Al-Kahf 18: Ayat 75 [ Jus-16 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus17::before { 
+  content: "QS. Al-Anbiya 21: Ayat 1 [ Jus-17 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus18::before { 
+  content: "QS. Al-Mu'minun 23: Ayat 1 [ Jus-18 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus19::before { 
+  content: "QS. Al-Furqan 25: Ayat 21 [ Jus-19 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus20::before { 
+  content: "QS. An-Naml 27: Ayat 60 [ Jus-20 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus21::before { 
+  content: "QS. Al-'Ankabut 29: Ayat 45 [ Jus-21 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus22::before { 
+  content: "QS. Al-Ahzab 33: Ayat 31 [ Jus-22 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus23::before { 
+  content: "QS. Yaa-Sin 36: Ayat 22 [ Jus-23 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus24::before { 
+  content: "QS. Az-Zumar 39: Ayat 32 [ Jus-24 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus25::before { 
+  content: "QS. Fussilat 41: Ayat 47 [ Jus-25 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus26::before { 
+  content: "QS. Al-Ahqaaf 46: Ayat 1 [ Jus-26 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus27::before { 
+  content: "QS. Adz-Dzariyat 51: Ayat 31 [ Jus-27 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus28::before { 
+  content: "QS. Al-Mujadilah 58: Ayat 1 [ Jus-28 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus29::before { 
+  content: "QS. Al-Mulk 67: Ayat 1 [ Jus-29 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  jus30::before { 
+  content: "QS. An-Naba' 78: Ayat 1 [ Jus-30 ]";
+  border: 1px solid #888A85;
+  border-radius: 30px;
+  background-color: #f9f2ec;
+  font-size: 12px;
+  padding: 6px;
+  color: #000;
+  cursor: pointer;
+}
+  srt1::before { 
+  content: "1. Al-Fatihah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  font-size: smaller;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt2::before { 
+  content: "2. Al-Baqarah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    text-align: center;
+      font-size: smaller;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt3::before { 
+  content: "3. Al-'Imraan";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  font-size: smaller;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt4::before { 
+  content: "4. An-Nisaa'";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  font-size: smaller;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt5::before { 
+  content: "5. Al-Maaidah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  font-size: smaller;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt6::before { 
+  content: "6. Al-An'aam";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  font-size: smaller;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt7::before { 
+  content: "7. Al-'Araaf";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt8::before { 
+  content: "8. Al-Anfaal";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt9::before { 
+  content: "9. At-Taubah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt10::before { 
+  content: "10. Yunus";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt11::before { 
+  content: "11. Huud";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt12::before { 
+  content: "12. Yusuf";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt13::before { 
+  content: "13. Ar-Ra'ad";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 20px;
+  color: #000;
+  cursor: pointer;
+}
+srt14::before { 
+  content: "14. Ibrahim";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt15::before { 
+  content: "15. Al-Hijr";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt16::before { 
+  content: "16. An-Nahl";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt17::before { 
+  content: "17. Al-Israa`";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt18::before { 
+  content: "18. Al-Kahfi";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt19::before { 
+  content: "19. Maryam";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt20::before { 
+  content: "20. Ath-Thahaa";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt21::before { 
+  content: "21. Al-Anbiyaa`";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt22::before { 
+  content: "22. Al-Hajj";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt23::before { 
+  content: "23. Al-Mu'minuun";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt24::before { 
+  content: "24. An-Nuur";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt25::before { 
+  content: "25. Al-Furqaan";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt26::before { 
+  content: "26. Asy-Syu'araa";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt27::before { 
+  content: "27. An-Naml";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt28::before { 
+  content: "28. Al-Qashash";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt29::before { 
+  content: "29. Al-'Ankabuut";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt30::before { 
+  content: "30. Ar-Ruum";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt31::before { 
+  content: "31. Luqman";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt32::before { 
+  content: "32. As-Sajdah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt33::before { 
+  content: "33. Al-Ahzaab";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt34::before { 
+  content: "34. Saba'";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt35::before { 
+  content: "35. Faathir";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt36::before { 
+  content: "36. Yaasiin";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt37::before { 
+  content: "37. Ash-Shaaffaat";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt38::before { 
+  content: "38. Shaad";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 40px;
+  color: #000;
+  cursor: pointer;
+}
+srt39::before { 
+  content: "39. Az-Zumar";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt40::before { 
+  content: "40. Ghaafir";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt41::before { 
+  content: "41. Fushshilat";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt42::before { 
+  content: "42. Asy-Syuura";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 22px;
+  color: #000;
+  cursor: pointer;
+}
+srt43::before { 
+  content: "43. Az-Zukhruf";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt44::before { 
+  content: "44. Ad-Dukhaan";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt45::before { 
+  content: "45. Al-Jatsiyah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt46::before { 
+  content: "46. Al-Aqaaf";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt47::before { 
+  content: "47. Muhammad";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt48::before { 
+  content: "48. Al-Fath";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt49::before { 
+  content: "49. Al-Hujuraat";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt50::before { 
+  content: "50. Qaaf";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt51::before { 
+  content: "51. Adz-Dzariyaat";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt52::before { 
+  content: "52. Ath-Thuur";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt53::before { 
+  content: "53. An-Najm";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt54::before { 
+  content: "54. Al-Qamar";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt55::before { 
+  content: "55. Ar-Rahmaan";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt56::before { 
+  content: "56. Al-Waaqi'ah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt57::before { 
+  content: "57. Al-Hadiid";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt58::before { 
+  content: "58. Al-Mujaadilah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt59::before { 
+  content: "59. Al-Hasyr";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt60::before { 
+  content: "60. Al-Mumtahanah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt61::before { 
+  content: "61. Ash-Shaff";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt62::before { 
+  content: "62. Al-Jumu'ah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt63::before { 
+  content: "63. Al-Munaafiquun";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt64::before { 
+  content: "64. At-Taghaabun";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt65::before { 
+  content: "65. Ath-Thalaaq";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt66::before { 
+  content: "66. At-Tahriim";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt67::before { 
+  content: "67. Al-Mulk";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt68::before { 
+  content: "68. Al-Qalam";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt69::before { 
+  content: "69. Al-Haaqqah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt70::before { 
+  content: "70. Al-Ma'aarij";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt71::before { 
+  content: "71. Nuuh";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt72::before { 
+  content: "72. Al-Jiin";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt73::before { 
+  content: "73. Al-Muzzammil";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt74::before { 
+  content: "74. Al-Muddatstsir";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt75::before { 
+  content: "75. Al-Qiyaamah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt76::before { 
+  content: "76. Al-Insaan";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt77::before { 
+  content: "77. Al-Mursalaat";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt78::before { 
+  content: "78. An-Nabaa'";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt79::before { 
+  content: "79. An-Naazi'aat";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt80::before { 
+  content: "80. 'Abasa";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt81::before { 
+  content: "81. At-Takwirr";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt82::before { 
+  content: "82. Al-Infithaar";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt83::before { 
+  content: "83. Al-Muthaffifiin";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt84::before { 
+  content: "84. Al-Insyiqaaq";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt85::before { 
+  content: "85. Al-Buruuj";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt86::before { 
+  content: "86. Ath-Thaariq";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt87::before { 
+  content: "87. Al-'Alaa";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt88::before { 
+  content: "88. Al-Ghaasyiyah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt89::before { 
+  content: "89. Al-Fajr";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt90::before { 
+  content: "90. Al-Balad";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt91::before { 
+  content: "91. Asy-Syams";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt92::before { 
+  content: "92. Al-Lail";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt93::before { 
+  content: "93. Al-Dhuha";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt94::before { 
+  content: "94. Al-Nasyrah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt95::before { 
+  content: "95. At-Tiin";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt96::before { 
+  content: "96. Al-'alaq";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt97::before { 
+  content: "97. Al-Qadr";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt98::before { 
+  content: "98. Al-Bayyinah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt99::before { 
+  content: "99. Az-Zalzalah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt100::before { 
+  content: "100. Al-'Aadiyaat";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt101::before { 
+  content: "101. Al-Qaari'ah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt102::before { 
+  content: "102. At-Takaatsur";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt103::before { 
+  content: "103. Al-'Ashr";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt104::before { 
+  content: "104. Al-Humazah";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt105::before { 
+  content: "105. Al-Fiil";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt106::before { 
+  content: "106. Al-Quraisy";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt107::before { 
+  content: "107. Al-Maa'uun";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt108::before { 
+  content: "108. Al-Kautsar";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt109::before { 
+  content: "109. Al-Kaafiruun";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt110::before { 
+  content: "110. An-Nashr";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt111::before { 
+  content: "111. Al-Lahab";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt112::before { 
+  content: "112. Al-Ikhlash";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt113::before { 
+  content: "113. Al-Falaq";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+srt114::before { 
+  content: "114. An-Naas";
+ background-image:url("../png/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 12px;
+  padding: 12px 30px;
+  color: #000;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

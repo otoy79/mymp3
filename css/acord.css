@@ -1,0 +1,304 @@
+﻿
+.modalpup-pup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Sit on top */
+  padding-top: 5px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background:rgba(255,255,255, 0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.pup-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+
+/* The Close Button */
+.tutup {
+  position: relative;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tutup:hover,
+.tutup:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 12px;
+  background-color: #ccc;
+  text-align: center;
+  color: #000;
+  border-top: 3px solid #bbb;
+}
+
+.modal-body {
+   margin: auto;
+  height: 94%;
+  overflow: auto;
+padding: 20px;
+ padding-bottom: 35px;
+}
+
+.modal-footer {
+  width: 100%;
+  position: absolute;
+ bottom: 5px;
+ left: 0;
+  text-align: center;
+  padding: 8px;
+  background-color: #ccc;
+  color: white;
+}
+ok::after {
+  content: "OK";
+  background: #1a252f; 
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 6px;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+}
+
+.header-orange {
+  font-size: 18px;
+  color: white;
+  background: orange;
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+.header-green {
+  font-size: 18px;
+  color: white;
+  background: green;
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+.header-black {
+  font-size: 18px;
+  color: white;
+  background: #222;
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+.header-green2 {
+  font-size: 18px;
+  color: white;
+  background: #32CD32;
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+.header-ungu {
+  font-size: 18px;
+  color: white;
+  background: #9400D3;
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+.header-blue {
+  font-size: 18px;
+  color: white;
+  background: blue;
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+.header-ping {
+  font-size: 18px;
+  color: white;
+  background: deeppink;
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+.header-red {
+  font-size: 18px;
+  color: white;
+  background: red;
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+.sound {
+  margin-top:12px;
+  float: right;
+  margin-right:6px;
+  margin-left:12px;
+  border: 1px solid orange;
+  border-radius: 8px;
+  padding: 3px;
+  width: 20px;
+  height: 20px;
+  background: #006666;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.sound:hover {
+  width: 22px;
+  height: 22px;
+  background: red;
+  transform: rotate(360deg);
+}
+
+
+.modalle {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Sit on top */
+  padding-top: 5px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background:rgba(255,255,255, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modalle-content {
+ position: absolute;
+  left: 50%;
+  top: 28%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #fefefe;
+  margin: 0;
+  width: 245px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.1s;
+  animation-name: animatetop;
+  animation-duration: 0.1s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-800px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-800px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.silang {
+  position: relative;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.silang:hover,
+.silang:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modalle-header {
+  padding: 12px;
+  background-color: #ccc;
+  text-align: center;
+  color: #000;
+  border-top: 3px solid #bbb;
+}
+
+.modalle-body {
+   margin: auto;
+  overflow: auto;
+padding: 8px;
+  padding-bottom: 25px;
+  
+}
+
+.modalle-footer {
+  width: 230px;
+  position: absolute;
+ bottom: 1px;
+ left: 0;
+  text-align: center;
+  padding: 8px;
+  background-color: #fff;
+  color: white;
+}
+ok::after {
+  content: "Close";
+  background: #1a252f; 
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 6px;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+}
+.tj-close {
+  margin-top: -23px;
+  margin-right: 28px;
+  width: 20px;
+  height: 20px;
+  background-image:url("../png/close.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: right;
+  float: right;
+  color:#4D7523;
+  font-size: small;
+  padding: 1px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.tj-close:hover {
+  width: 20px;
+  height: 20px;
+  transform: rotate(180deg);
+}
+.lt-close {
+  margin-top: -23px;
+  margin-right: 28px;
+  width: 20px;
+  height: 20px;
+  background-image:url("../png/close.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: right;
+  float: right;
+  color:#4D7523;
+  font-size: small;
+  padding: 1px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.lt-close:hover {
+  width: 20px;
+  height: 20px;
+  transform: rotate(180deg);
+}
